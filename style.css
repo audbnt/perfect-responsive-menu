@@ -3,11 +3,18 @@
 }
 
 body {
-	overflow: hidden;
+	/* overflow: hidden; */
 	font-family: sans-serif;
 }
 
+
+
 @media ( max-width: 40rem ) {
+
+	.noscroll{
+		overflow: hidden;
+	}
+
 	.navigation button {
 		display: block;
 		position: absolute;
